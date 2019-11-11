@@ -6,52 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ChuChuCh00zer</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
 
 </head>
 <body>
 
-    <div class = "header">
-        <img src="assets/images/purple smoke.gif" alt="purple smoke"  width="100%" height="80%">
-        <!--https://giphy.com/gifs/smoke-8QOHnNJk5w91e-->
-        <h1>ChuChuChooser!</h1>
-    </div>
+    <div id = webpage>
 
-    <div id = background>
-    <img src="assets/images/Outset Island.png" alt="Outset Island Backdrop" width="100%">
-    <!--http://gallery.wacom.com/gallery/16785707/Outset-Island-->
-    </div>
+        <div id = header>
+            <img src="assets/images/purple smoke.gif" alt="purple smoke" id= purplesmoke>
+                <!--https://giphy.com/gifs/smoke-8QOHnNJk5w91e-->
+            <h1>ChuChuChooser!</h1>
+        </div>
 
-    <div class = "instructions">
-        <h2>~Instructions~</h2>
-        <br>
+        <div id = background>
+            <img src="assets/images/Outset Island.png" alt="Outset Island Backdrop" id= "outsetisland">
+            <!--http://gallery.wacom.com/gallery/16785707/Outset-Island-->
 
-        <li>You will be given a number at the start of the game</li>
-        <li>There are four ChuChus below. By clicking on a ChuChu, you will add a specific amount of points to your total score! </li>
-        <li>You Win the game when your total score matches the number you were given at the start of the game. If your score goes above that number, you lose.</li>
-        <li>Each ChuChu's value is hidden at the start of every game until you click on it.</li>
-        <li>Each time the game starts, the value of each ChuChu changes! Good luck :)</li>
+            <div id = winningNumber>
+            </div>
 
-    </div>
-    <div id = winningNumber>
-    </div>
+            <div id = victories>Victories!
+            </div>
 
-    <div id = victories>Victories!
-    </div>
+            <div id = losses>Losses...
+            </div>
 
-    <div id = losses>Losses...
-    </div>
+            <div id = totalScore> Total Score
+            </div>
+            
+            <div class = chuchus>
+                <img src = "assets/images/Green ChuChu.png" class = chuchuImage id = "green" alt = "Green ChuChu">
+                <img src = "assets/images/Red ChuChu.png" class = chuchuImage id = "red" alt = "Red ChuChu">
+                <img src = "assets/images/Blue ChuChu.png" class = chuchuImage id = "blue" alt = "Blue ChuChu">
+                <img src = "assets/images/Dark ChuChu.png" class = chuchuImage id = "dark" alt = "Dark ChuChu">
+            </div>
+        </div>
 
-    <div id = totalScore> Total Score
-    </div>
-
-    <div class = chuchus>
-        <img src = "assets/images/Green ChuChu.png" class = chuchuImage id = "green" alt = "Green ChuChu">
-        <img src = "assets/images/Red ChuChu.png" class = chuchuImage id = "red" alt = "Red ChuChu">
-        <img src = "assets/images/Blue ChuChu.png" class = chuchuImage id = "blue" alt = "Blue ChuChu">
-        <img src = "assets/images/Dark ChuChu.png" class = chuchuImage id = "dark" alt = "Dark ChuChu">
-    </div>
+        <div id = "instructions">
+            <img src="assets/images/wood.png" id= wood>
+                <h2>~Instructions~</h2>
+                <br>
     
+                <li>You will be given a number at the start of the game</li>
+                <li>There are four ChuChus below. By clicking on a ChuChu, you will add a specific amount of points to your total score! </li>
+                <li>You Win the game when your total score matches the number you were given at the start of the game. If your score goes above that number, you lose.</li>
+                <li>Each ChuChu's value is hidden at the start of every game until you click on it.</li>
+                <li>Each time the game starts, the value of each ChuChu changes! Good luck :)</li>
+        </div>
+    </div>
     <script src = "https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script type = "text/javascript" src = "assets/javascript/game.js"></script>
 </body>
