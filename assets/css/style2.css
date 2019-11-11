@@ -7,23 +7,44 @@
     }
     #webpage {
         background-color: seagreen;
-        width: 80%;
-        margin-left: 10%;
+        width: 70%;
+        margin-left: 20%;
     }
 
     #header {
-    background-color: red;
+    background-color: orange;
     background-repeat: round;
     background-attachment: fixed;
     position: relative;
-    z-index: 1;
-    max-height: 100%;
+    z-index: 0;
+    height: 100%;
+    text-align: center;
     }
 
     #purplesmoke {
         background-color: red;
-        object-fit: cover;
         background-attachment: fixed;
+        padding: 0;
+        max-height: 100%;
+        float: left;
+        width: fit-content;
+    }
+
+    #purplesmoke2 {
+        background-color: red;
+        background-attachment: fixed;
+        padding: 0;
+        max-height: 100%;
+        float: right;
+        width: fit-content;
+    }
+
+    #chuchuchooser {
+        text-align: center;
+        font-size: 200%;
+        position: absolute;
+        z-index: 2;
+        width: 100%;
     }
 
     h1 {
