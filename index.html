@@ -20,13 +20,13 @@
                 <!--https://giphy.com/gifs/smoke-8QOHnNJk5w91e-->
             </div>
 
-            <div id = "chuchuchooser">
+            <div id = "gametitle">
                 ChuChuChooser!
             </div>
         </div>
 
         <div id = background>
-            <div id="outsetisland"> <img src="assets/images/Outset Island.png" alt="Outset Island Backdrop" width="100%">
+            <div id="outsetisland"> <img src="assets/images/Outset Island.png" alt="Outset Island Backdrop" width="100%" height="100%">
             <!--http://gallery.wacom.com/gallery/16785707/Outset-Island-->
             </div>
 
@@ -43,23 +43,33 @@
             </div>
             
             <div class = chuchus>
-                <img src = "assets/images/Green ChuChu.png" class = chuchuImage id = "green" alt = "Green ChuChu">
+                <div id="greenchuchu"><img src = "assets/images/Green ChuChu.png" class = chuchuImage id = "green" alt = "Green ChuChu">
+                </div>
+                <div id="redchuchu">
                 <img src = "assets/images/Red ChuChu.png" class = chuchuImage id = "red" alt = "Red ChuChu">
+                </div>
+                <div id="bluechuchu">
                 <img src = "assets/images/Blue ChuChu.png" class = chuchuImage id = "blue" alt = "Blue ChuChu">
+                </div>
+                <div id="darkchuchu">
                 <img src = "assets/images/Dark ChuChu.png" class = chuchuImage id = "dark" alt = "Dark ChuChu">
+                </div>
             </div>
         </div>
-
-        <div id = "instructions">
-            <img src="assets/images/wood.png" id= wood>
+        <div id="instbox">
+            <div id="woodpanel">
+                <img src="assets/images/wood.png" alt="wood" width="100%" height="20%">
+            </div>
+            <div id="instructions">
                 <h2>~Instructions~</h2>
                 <br>
-    
+
                 <li>You will be given a number at the start of the game</li>
                 <li>There are four ChuChus below. By clicking on a ChuChu, you will add a specific amount of points to your total score! </li>
                 <li>You Win the game when your total score matches the number you were given at the start of the game. If your score goes above that number, you lose.</li>
                 <li>Each ChuChu's value is hidden at the start of every game until you click on it.</li>
                 <li>Each time the game starts, the value of each ChuChu changes! Good luck :)</li>
+            </div>
         </div>
     </div>
     <script src = "https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>

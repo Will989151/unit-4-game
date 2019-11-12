@@ -6,7 +6,7 @@
         background-color: lightblue;
     }
     #webpage {
-        background-color: seagreen;
+        background-color: black;
         width: 70%;
         margin-left: 20%;
     }
@@ -22,7 +22,7 @@
     }
 
     #purplesmoke {
-        background-color: red;
+        background-color: black;
         background-attachment: fixed;
         padding: 0;
         max-height: 100%;
@@ -31,7 +31,7 @@
     }
 
     #purplesmoke2 {
-        background-color: red;
+        background-color: black;
         background-attachment: fixed;
         padding: 0;
         max-height: 100%;
@@ -39,16 +39,16 @@
         width: fit-content;
     }
 
-    #chuchuchooser {
+    #gametitle {
         text-align: center;
-        font-size: 200%;
+        font-size: 300%;
         position: absolute;
         z-index: 2;
         width: 100%;
+        color: palevioletred;
     }
 
     h1 {
-        background-color: red;
         position: absolute;
         z-index: 2;
         margin-left: 50%;
@@ -56,7 +56,7 @@
     }
 
     #background {
-        background-color: red;
+        background-color: yellowgreen;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -64,14 +64,67 @@
         clear: both;
         width: 100%;
         height: 100%;
+        position: relative;
     }
 
     #outsetisland {
         object-fit: fill;
+        height: 100%;
 
+    }
+
+    .chuchus {
+        position: absolute;
+        width: 100%;
+        bottom: 5%;
+        height: 40%;
+    }
+
+    #greenchuchu {
+        float: left;
+        clear: left;
+        width: 25%;
+        bottom: 15%;
+
+        
+    }
+    
+    #redchuchu {
+        float: left;
+        width: 25%;
+        
+    }
+
+    #bluechuchu {
+        float: left;
+        width: 25%;
+        
+    }
+
+    #darkchuchu {
+        float: left;
+        width: 25%;
+        
+    }
+
+    #instbox {
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #woodpanel {
+        width: 100%;
+        height: 50%;
+        z-index: 0;
+        overflow: hidden;
     }
 
     #instructions {
-        background-color: red;
+        color: lightgray;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 5%;
     }
-
